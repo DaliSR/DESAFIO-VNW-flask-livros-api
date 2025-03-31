@@ -55,7 +55,7 @@ def doar():
 
 
 
-
+@app.route('/livros', methods=['GET'])
 def listar_livros():
     
     with sqlite3.connect("database.db") as conn:
